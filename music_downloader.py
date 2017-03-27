@@ -17,10 +17,11 @@ ydl_opts = {
 }
 SEPARATOR = "-"
 DIRECTORY = "playlist"
-IMAGE="wall.jpg"
+IMAGE = "wall.jpg"
+PLAYLIST = "playlist.json"
 
 playlist = None
-json_data = open('playlist.json')
+json_data = open(PLAYLIST)
 playlist = json.load(json_data)
 
 # Check if playlist directory is present , if not create it
@@ -40,8 +41,9 @@ for song in playlist['playlist']['song'] :
 		continue
 
 	#Download song from youtube
+	print "Downloading ->" + filename + "\n"
 	with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-		print ydl.download([song['ytlink']])
+		ydl.download([song['ytlink']])
 
 	#Set ID3 tags for the downloaded file
 	audiofile = eyed3.load("downloaded.mp3")
