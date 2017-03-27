@@ -2,7 +2,8 @@
 	"playlist" : {
 		"song" : [
 			{ "artist" : "Imagine Dragon", "title" : "Believer", "year" : "2017", "ytlink" : "https://www.youtube.com/watch?v=IhP3J0j9JmY" , "subdir" : "." },
-			{ "artist" : "Eiffel 65", "title" : "Blue", "year" : "1998", "ytlink" : "https://www.youtube.com/watch?v=68ugkg9RePc" , "subdir" : "." }
+			{ "artist" : "Eiffel 65", "title" : "Blue", "year" : "1998", "ytlink" : "https://www.youtube.com/watch?v=68ugkg9RePc" , "subdir" : "." },
+			{ "artist" : "Justin Timberlake", "title" : "Hair Up", "year" : "2016", "ytlink" : "https://www.youtube.com/watch?v=fM4GVy120xM" , "subdir" : "." }
 
 		]
 	}
