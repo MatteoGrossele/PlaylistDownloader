@@ -34,6 +34,8 @@ for song in playlist['playlist']['song']:
 
     #Create filename
     if song['subdir']:
+    	if not os.path.exists(song['subdir']):
+            os.makedirs(song['subdir'])
         filename = song['subdir'] + "/" + song['artist'] + SEPARATOR + \
             song['title'] + ".mp3"
     else:
