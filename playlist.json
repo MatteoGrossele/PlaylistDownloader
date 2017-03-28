@@ -1,6 +1,6 @@
 {
 	"playlist" : {
-
+		"name" : "Vacanze2017",
 		"song" : [
 			{ "artist" : "Imagine Dragon", "title" : "Believer", "genre": "Pop", "year" : "2017", "ytlink" : "https://www.youtube.com/watch?v=IhP3J0j9JmY" , "subdir" : "." },
 			{ "artist" : "Eiffel 65", "title" : "Blue","genre": "Dance", "year" : "1998", "ytlink" : "https://www.youtube.com/watch?v=68ugkg9RePc" , "subdir" : "." },

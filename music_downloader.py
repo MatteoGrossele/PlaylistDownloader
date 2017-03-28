@@ -26,6 +26,10 @@ playlist = None
 json_data = open(PLAYLIST)
 playlist = json.load(json_data)
 
+# If user specified a name for the playlist, change the directory name
+if playlist['playlist']['name']:
+    DIRECTORY = playlist['playlist']['name']
+
 # Check if playlist directory is present , if not create it
 if not os.path.exists(DIRECTORY):
     os.makedirs(DIRECTORY)
@@ -34,8 +38,8 @@ for song in playlist['playlist']['song']:
 
     #Create filename
     if song['subdir']:
-    	if not os.path.exists(song['subdir']):
-            os.makedirs(song['subdir'])
+    	if not os.path.exists(DIRECTORY + "/" + song['subdir']):
+            os.makedirs(DIRECTORY + "/" + song['subdir'])
         filename = song['subdir'] + "/" + song['artist'] + SEPARATOR + \
             song['title'] + ".mp3"
     else:
