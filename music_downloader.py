@@ -2,7 +2,6 @@
 
 from __future__ import unicode_literals
 import json
-
 import youtube_dl
 import eyed3
 import shutil
