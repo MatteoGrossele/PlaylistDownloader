@@ -2,11 +2,11 @@
 	"playlist" : {
 
 		"song" : [
-			{ "tracknum" : "1", "artist" : "Imagine Dragon", "title" : "Believer", "genre": "Pop","year" : "2017", "ytlink" : "https://www.youtube.com/watch?v=IhP3J0j9JmY" , "subdir" : "." },
-			{ "artist" : "Eiffel 65", "title" : "Blue", "year" : "1998", "ytlink" : "https://www.youtube.com/watch?v=68ugkg9RePc" , "subdir" : "." },
-			{ "artist" : "Justin Timberlake", "title" : "Hair Up", "year" : "2016", "ytlink" : "https://www.youtube.com/watch?v=fM4GVy120xM" , "subdir" : "." },
-			{ "artist" : "Chumbawamba", "title" : "Tubthumping", "year" : "1997", "ytlink" : "https://www.youtube.com/watch?v=LODkVkpaVQA" , "subdir" : "." },
-			{ "artist" : "Rick Astley", "title" : "Never Gonna Give You Up", "year" : "1987", "ytlink" : "https://www.youtube.com/watch?v=dQw4w9WgXcQ" , "subdir" : "." }
+			{ "artist" : "Imagine Dragon", "title" : "Believer", "genre": "Pop", "year" : "2017", "ytlink" : "https://www.youtube.com/watch?v=IhP3J0j9JmY" , "subdir" : "." },
+			{ "artist" : "Eiffel 65", "title" : "Blue","genre": "Dance", "year" : "1998", "ytlink" : "https://www.youtube.com/watch?v=68ugkg9RePc" , "subdir" : "." },
+			{ "artist" : "Justin Timberlake", "title" : "Hair Up","genre": "Pop", "year" : "2016", "ytlink" : "https://www.youtube.com/watch?v=fM4GVy120xM" , "subdir" : "." },
+			{ "artist" : "Chumbawamba", "title" : "Tubthumping","genre": "Pop", "year" : "1997", "ytlink" : "https://www.youtube.com/watch?v=LODkVkpaVQA" , "subdir" : "." },
+			{ "artist" : "Rick Astley", "title" : "Never Gonna Give You Up","genre": "Pop", "year" : "1987", "ytlink" : "https://www.youtube.com/watch?v=dQw4w9WgXcQ" , "subdir" : "." }
 
 		]
 	}
